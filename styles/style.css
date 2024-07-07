@@ -68,5 +68,181 @@
     text-align: center;
     opacity: 0.7;
     margin-bottom: 20px;
+}
 
+/* Card_Box Section */
+#card-box{
+    width: 845px;
+    margin: 100px auto;
+}
+.container > .info > p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.container > .info > h1{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 0px 200px;
+}
+
+.card-container{
+    margin-top: 50px;
+    display: flex;
+}
+
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.card .image-box{
+    width: 250px;
+}
+
+.card .image-box img{
+    width: 100%;
+}
+
+.card .pizza{
+    padding: 8px 16px 8px 16px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center; 
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+.card .pizza-offer{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    /* background-color: green; */
+}
+
+.card .pizza-text{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+
+#about-us-section{
+    display: flex;
+    width: 1228px;
+    height: 430px;
+    border: 2px solid red;
+    margin: 0px auto;
+    
+} 
+.about-us-image{
+    width: 50%;
+    
+} 
+.about-us-image img{
+    width: 100%;
+}
+
+.about-us-discription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+} 
+#about-us-section .about-us-title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about-us-discription p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+}
+hr{
+    width: 100%;
+}
+
+.about-us-discription .follow{
+    padding:19px 7px ;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.icon-btn{
+    padding: 15px;
+}
+.fa-facebook{
+    color: rgb(0, 178, 255);
+}
+.fa-instagram{
+    color: rgb(172, 12, 142)
+}
+.fa-square-pinterest{
+    color: rgb(225, 49, 56);
+}
+footer{
+    background-image: url(../assets/social-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 1228px;
+    height: 430px;
+    margin: 0px auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    opacity: .1;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:100px 0px;
 }
